@@ -8,8 +8,8 @@
 * [Overview](#Overview)
 * [Prerequisites](#Prerequisites)
     - [Install Ubuntu](#Install_Ubuntu_[Windows])
-        - [Windows](#Windows)
-    - [IAM Roles](#IAM_Roles)
+        - Windows
+        - IAM Roles
 * [Instructions](#Instructions)
 
 ## Overview
@@ -41,12 +41,12 @@ To run this build, you will require a [IAM User][aws-IAM].
 
 ## Instructions
 
-`git clone https://github.com/{Git Username}/Bridge`
-`cd aws-apache`
-`sh build.sh`
-- Enter AMI Access Key
-- Enter AMI Secret Access Key
-- Enter AWS Region
+- `git clone https://github.com/{Git Username}/Bridge`
+- `cd aws-apache`
+- `sh build.sh`
+    - Enter AMI Access Key
+    - Enter AMI Secret Access Key
+    - Enter AWS Region
 
 > This will then run the folloing processes:
 > * Gather 'apt' Updates
