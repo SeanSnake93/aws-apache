@@ -41,7 +41,7 @@ To run this build, you will require a [IAM User][aws-IAM].
 
 ## Instructions
 
-- `git clone https://github.com/{Git Username}/Bridge`
+- `git clone https://github.com/SeanSnake93/aws-apache`
 - `cd aws-apache`
 - `sh build.sh`
     - Enter AMI Access Key
