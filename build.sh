@@ -2,7 +2,7 @@
 
 # temp_access="" # Test Purose Only
 # temp_sec_access="" # Test Purose Only ~ Never Upload this
-# temp_location="" # Enter Region
+temp_location="eu-west-1" # Enter Region
 locking="false" # This if 'true' will lock the system from accidental termination
 
 echo "AWS Configure"
