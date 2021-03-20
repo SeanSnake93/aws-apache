@@ -3,7 +3,7 @@
 [aws-IAM]: https://console.aws.amazon.com/iam/home
 [Overview-img]: https://github.com/SeanSnake93/aws-apache/blob/master/Documentation/overview.png
 
-# Bridge
+#   AWS-Apache
 
 * [Overview](#Overview)
 * [Prerequisites](#Prerequisites)
