@@ -46,7 +46,6 @@ To run this build, you will require a [IAM User][aws-IAM].
 - `sh build.sh`
     - Enter AMI Access Key
     - Enter AMI Secret Access Key
-    - Enter AWS Region
 
 > This will then run the folloing processes:
 > * Gather 'apt' Updates
@@ -54,12 +53,11 @@ To run this build, you will require a [IAM User][aws-IAM].
 > * Install Terraform
 > * Install AWSCLI
 > * Configure AWS Cradentuals
-> * Install AWSCLI
-> * Configure Terraform
+> * Initialize Terraform
 > * Build Terraform files
 >   * Install Ubuntu 20.04
 >   * Gather 'apt' Updates
->   * Configure Firewall [ open Ports 22 and 80 ]
+>   * Configure ufw (Firewall) [ open Ports 22 and 80 ]
 >   * Install Apache
-> * Display URL access link (http)
-> * Remove redundent packages creaded though installs
+>> * Display URL access link (http)
+> * Remove redundent packages created though installations above
